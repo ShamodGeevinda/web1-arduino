@@ -1,0 +1,33 @@
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(112, 228, 243);
+}
+li{
+    float: left;
+}
+li a { 
+    display: block;
+    color: rgb(17, 62, 146);
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: rgb(81, 168, 250);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  tr:hover {background-color: rgb(191, 241, 250);}
